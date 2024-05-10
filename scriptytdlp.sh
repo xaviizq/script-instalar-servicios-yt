@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Comprobación e instalación de herramientas (opcional)
+# yt-dlp esta instalado?
 if ! command -v yt-dlp &> /dev/null; then
     echo "yt-dlp no está instalado, instalando..."
     pip install yt-dlp
